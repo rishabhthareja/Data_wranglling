@@ -14,5 +14,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 data = pd.read_csv(r"Path of dataset file")
+
 data_wranglling_info(data)
 
