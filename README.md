@@ -5,15 +5,7 @@ The code contains a function called "data_wranglling_info" which will generate b
 3. Number of Nan in each variable and its bargraph plot.
 4. Any empty column.
 
-Code to use the fucntion.
+The above function data_wranglling_info is called in main function and applied on very popular dataset "iris".
 
-import pandas as pd
 
-import matplotlib.pyplot as plt
-
-import numpy as np
-
-data = pd.read_csv(r"Path of dataset file")
-
-data_wranglling_info(data)
 
